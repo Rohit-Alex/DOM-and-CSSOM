@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset=""UTF-B">
+        <title>Webpage</title>
+        <link rel = "styleSheet" href = "style.css">
+        <script  src="app.js"></script> 
+    </head>
+    <body>
+        <h1 id="heading">Aur ki haal chaal</h1> 
+        <button onClick="clicked()">Click</button>        
+        <script>
+            console.log("Hello");
+        </script>   
+    </body>
+</html>
+
+<!-- DOM building is incremental
+CSSOM is non incremental
+DOM + DOM + download CSS + CSSOM + DOM + download JS and Execute  --> 
+<!-- non- incremental means loaded at once
+incremental means gets updated as it gets other element
+cssom is loaded at once and then by combining with dom creates render tree -->
